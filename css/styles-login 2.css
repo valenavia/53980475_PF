@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+img {
+  height: 11em;
+}
+
+form {
+  border: 0.175em solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  font-size: medium;
+  color: #ffaa33;
+}
+
+a:hover {
+  color: black;
+}
+
+.form-floating input {
+  border-radius: 0.25em;
+  border: 0.1em solid #ccc;
+  text-align: center;
+}
+
+.form-floating input:focus {
+  outline: none;
+  text-align: center;
+}
+
+.form-floating {
+  margin-top: 0.5em;
+  padding: 0.3em;
+}
+
+#labelEmail {
+  margin-left: 0.95em;
+}
+
+#labelPasword {
+  margin-left: 2.2em;
+}
+
+input::placeholder {
+  text-align: center;
+  font-size: large;
+  color: rgb(154, 154, 154);
+}
+
+button {
+  border-radius: 0.25em;
+  padding: 1em 2em;
+  background-color: #ffa72c;
+  font-weight: bold;
+  margin-bottom: 2em;
+}
