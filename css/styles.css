@@ -188,3 +188,143 @@ a.custom-card:hover {
 .checked {
   color: orange;
 }
+
+.comentario {
+  border: rgba(216, 207, 207, 0.822) solid 0.1rem;
+  border-radius: 0.3rem;
+  margin-bottom: 0.6rem;
+  padding-left: 0.6rem;
+  padding-top: 0.3rem;
+  line-height: 0.5em;
+}
+
+#numEstrellas {
+  padding: 0.5rem;
+  margin-left: 0.75rem;
+}
+
+#botonPuntuacion {
+  padding: 17px;
+  margin-left: -1.05rem;
+}
+
+#tituloComentarios,
+#tituloComentar {
+  margin-top: 3rem;
+}
+
+.imgProductos {
+  width: 18rem;
+  margin-top: 1.3rem;
+  margin-right: 2rem;
+}
+
+#nomProducto {
+  margin-top: 1.3rem;
+}
+
+#hrProductos {
+  margin-top: 1.8rem;
+}
+
+.star {
+  color: grey;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+.rating {
+  margin-top: -1rem;
+}
+
+.star:hover,
+.star.checked {
+  color: goldenrod;
+}
+
+
+.carouselStyles{
+  width: 300px;
+  padding: 1rem;
+}
+
+.productosRelacionados{
+  display:flex;
+}
+
+.borde{
+  padding-left: 2rem;
+  padding-top: 0%;
+  border: rgba(192, 188, 188, 0.671) solid 0.1px;
+  margin: 5px;
+}
+
+body.dark {
+  background-color: #212121;
+  color: #F4F4F4;
+}
+
+body.dark .list-group-item {
+  background-color: #212121;
+  color: #F4F4F4;
+}
+
+body.dark .comentario {
+  background-color: #212121;
+
+  color: #F4F4F4;
+}
+
+body.dark .card {
+
+  background-color: #212121;
+  color: #F4F4F4;
+}
+
+#navbarNav,
+#footer {
+  background-color: #3C3C3C;
+}
+
+#navbarNav a,
+#footer p {
+  color: #F2F2F2;
+  display: flexbox;
+}
+
+#navbarNav li {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  /* Utilizamos flexbox para alinear los elementos */
+  justify-content: space-between;
+}
+
+#logo_index,
+#logo {
+  width: 15%;
+  justify-content: flex-start;
+}
+
+.card-text,
+.m-3 {
+  font-family: 'League Spartan', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav-link {
+  padding: 0;
+}
+
+#video_index {
+  width: 100%;
+  height: 30%;
+}
+
+footer {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}

@@ -10,6 +10,7 @@
   <link href="css/font-awesome.min.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -19,6 +20,7 @@
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <a href="index.html"><img id="logo_index" src="img/logo/2.png" alt="Descripción de la imagen"></a>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav w-100 justify-content-between">
           <li class="nav-item">
@@ -31,24 +33,55 @@
             <a class="nav-link" href="sell.html">Vender</a>
           </li>
           <li class="nav-item">
+            <!--Se agrega el boton de iniciar sesión-->
+            <a id="login" class="nav-link" href="login.html">Iniciar sesión</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   <main>
-    <div class="container">
-      <div class="alert alert-danger text-center" role="alert">
-        <h4 class="alert-heading">Funcionalidad en desarrollo</h4>
+    <div class="container" id="product-info">
+    </div>
+    <div id="carouselExampleControls" class="carousel slide container" data-bs-ride="carousel">
+      <div class="carousel-inner carouselStyles" id = "carousel">
       </div>
     </div>
+    <div class="container ">
+    <strong> Productos relacionados </strong>
+    <div class="productosRelacionados" id="related"></div>
+  </div>
+    </div>
+    <div id="comentario" class="container">
+    </div>
+    </div>
+    <div class="container">
+      <!--(E3)Se agrega un formulario para poder agregar comentarios y calificaciones en los productos-->
+      <form id="formPuntuacion">
+        <h4 id="tituloComentar">Comentar</h4>
+        <p>Tu opinión:</p>
+        <textarea id="opinionUsuario" rows="3" cols="40"></textarea>
+        <p>Tu puntuación:</p>
+        <div class="rating">
+          <i class="bi bi-star-fill star"></i>
+          <i class="bi bi-star-fill star"></i>
+          <i class="bi bi-star-fill star"></i>
+          <i class="bi bi-star-fill star"></i>
+          <i class="bi bi-star-fill star"></i>
+        </div>
+        <div id="botonPuntuacion">
+          <button id="botonComentario" type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+    </div>
   </main>
-  <footer class="text-muted">
+  <footer id="footer" class="text-muted">
     <div class="container">
       <p class="float-end">
         <a href="#">Volver arriba</a>
       </p>
-      <p>Este sitio forma parte de <a href="https://jovenesaprogramar.edu.uy/" target="_blank">Jovenes a Programar</a></p>
+      <p>Este sitio forma parte de <a href="https://jovenesaprogramar.edu.uy/" target="_blank">Jovenes a Programar</a>
+      </p>
     </div>
   </footer>
   <div id="spinner-wrapper">
