@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+img {
+  height: 7.5em;
+}
+
+form {
+  border: 0.175em solid black;
+  border: 0.175em solid black;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0.6em;
+}
+
+.form-floating input {
+  border-radius: 0.25em;
+  border: 0.1em solid #ccc;
+  text-align: center;
+}
+
+
+.form-floating {
+  padding: 0.2em;
+}
+
+.checkbox {
+  font-size: small;
+  color: #ff9807;
+}
+
+button {
+  border-radius: 0.25em;
+  padding: 0.4em 2em;
+  background-color: #ffa72c;
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+
+#labelNameRegister {
+  margin-left: 5.4em;
+}
+
+#labelLastnameRegister {
+  margin-left: 5.4em;
+}
+
+#labelEmailRegister {
+  margin-left: 6em;
+}
+
+#labelPassword1 {
+  margin-left: 4.5em;
+}
+
+#labelPassword2 {
+  margin-left: 2.95em;
+}
